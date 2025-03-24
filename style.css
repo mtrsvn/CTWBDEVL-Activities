@@ -1,0 +1,69 @@
+body {
+    background-color: #495892;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+}
+
+.test {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.test h1:hover {
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: inline;
+    margin: 50px;
+    align-items: center;
+    
+  }
+
+  li a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+li a:hover {
+    color: #8d8d8d;
+    transition: all 0.3s ease;
+}
+
+li a {
+    transition: all 0.3s ease;
+} 
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search input[type=text] {
+    float: right;
+    padding: 12px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 15px;
+    width: 30em;
+  }
+
+  .search input:focus {
+    outline: none;
+  }
