@@ -1,0 +1,43 @@
+body {
+    font-family: sans, sans-serif;
+}
+.header {
+    background-color: #1c1d1e;
+    padding: 20px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.list{
+    background-color: #393a3a;
+    padding: 20px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+}
+
+.paragraph {
+    background-color: #636363;
+    padding: 20px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.paragraph2 {
+    background-color: #838282;
+    padding: 20px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+
+.footer {
+    background-color: rgb(190, 190, 190);
+    padding: 20px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
