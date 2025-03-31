@@ -9,15 +9,18 @@
 
     <style>
         *{
-        font-family: arial, sans-serif;
-        color: #fff;
-        font-weight: 700;
+            font-family: arial, sans-serif;
+            color: #fff;
+            font-weight: 700;
         }
         body {
-        display: flex;
-        justify-content: center;
-        align-items: flex-start; 
-        flex-direction: column; 
+            background-image: url('snow.jpg');
+            background-repeat: repeat;
+            background-size: 40px 40px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start; 
+            flex-direction: column; 
         }
         header{
             width: 40%;
@@ -28,6 +31,7 @@
             transition: 0.1s all ease-in-out;
             margin-left: auto;
             margin-right: auto;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
         }
         section{
             width: 40%;
@@ -38,9 +42,9 @@
             transition: 0.1s all ease-in-out;
             margin-left: auto;
             margin-right: auto; 
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
         }
         article{
-            
             width: 40%;
             padding: 2px 2%;
             background-color: rgb(131, 181, 214);
@@ -49,6 +53,7 @@
             transition: 0.1s all ease-in-out;
             margin-left: auto;
             margin-right: auto;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);    
         }
         nav{
             width: 40%;
@@ -59,6 +64,7 @@
             transition: 0.1s all ease-in-out;
             margin-left: auto;
             margin-right: auto;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
         }
         nav ul{
             justify-content: center;
@@ -87,13 +93,26 @@
             transition: 0.1s all ease-in-out;
             margin-left: auto;
             margin-right: auto; 
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+        }
+        aside ul li{
+            display: inline-block;
+            margin-right: 5%;
+            margin-left: 10%;
+            list-style: none;
+            font-size: 15px;
         }
         aside ul li a{
+            text-decoration: none;
             transition: color 0.2s ease-in-out;
+            
         }
         footer p{
-            margin-left: 20px;
+            bottom: 0;
+            width: 100%;
             font-weight: 100;
+            color: #1c1d1e;
+            position: fixed;
         }
         header:hover{
             scale: 1.02;
@@ -143,11 +162,10 @@
         </article>
 
         <aside>
-            <h2>Links</h2>
             <ul>
                 <li><a href="https://www.matersven.me" target="_blank">matersven.me</a></li>
                 <li><a href="https://mtrsvn.github.io/mtrsvn.gg" target="_blank">mtrsvn.gg</a></li>
-                <li><a href="https://mtrsvn.github.io/Minecraft-Server-Status-Checker/" target="_blank">Server Checker Status</a></li>
+                <li><a href="https://mtrsvn.github.io/Minecraft-Server-Status-Checker/" target="_blank">minewatch</a></li>
             </ul>
         </aside>
     </main>
